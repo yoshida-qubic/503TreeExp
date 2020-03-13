@@ -97,6 +97,9 @@ $(function () {
 				navLink.removeClass('current');
 				navLink.eq(i).addClass('current');
 				i == contentsArr.length;
+			// スクロール位置がAbout Usより上になった場合、ナビゲーションからclass="current"を外す
+			}else if(contentsArr[0][0] > windowScrolltop){
+				navLink.removeClass('current');
 			}
 		};
 	}
