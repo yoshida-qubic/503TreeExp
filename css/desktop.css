@@ -442,21 +442,32 @@ section,
 	margin: 0 0 2rem;
 }
 .top06 .box{
-	margin: 5rem auto;
-	width: 80%;
+	margin: 2rem auto;
+	width: 100%;
 	max-width: 900px;
 }
-.top06 .box img{
+.top06 .box > img{
 	width: 100%;
+	margin:2rem 0;
+}
+.top06 .box .item{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.top06 .box .item .img{
+	width: 25%;
+}
+.top06 .box .item .inner{
+	width: 70%;
 }
 .top06 .box .voice_ttl{
 	font-size: 2rem;
-	margin: 2rem 0; 
+	margin: 0 0 2rem; 
 }
 .top06 .box .voice_txt{
 	font-size: 1.2rem;
 	text-align: left;
-	margin: 2rem 0;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ06 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
@@ -515,19 +526,74 @@ section,
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ08 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .top08{
 	background: url(../img/top05_back.png) center /cover no-repeat;
-	text-align: center;
 	padding: 5rem 0;
 }
-.top08 .box .item{
+.top08 .box{
+	text-align: center;
 	color: #d00e36;
 	border: solid 6px #d00e36;
 	padding: 1.5rem;
-	font-size:  2rem;
 	font-weight: bold;
 	margin: 4rem auto 6rem;
 	max-width:1000px;
 }
-.top08 dl.schedule{
+.top08 .box h3{
+	font-size:  2rem;
+}
+.top08 .item{
+	margin: 6rem auto 2rem;
+	max-width:750px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+.top08 .area{
+	width:70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.top08 .area h4{
+	font-size: 1.7rem;
+	position: relative;
+	padding-left: 4rem;
+}
+.top08 .area h4::before{
+	position: absolute;
+	top:50%;
+	left:0;
+	width: 3rem;
+	height: 1px;
+	background: #fff;
+	content: '';
+}
+.top08 .date{
+	width: 30%;
+}
+.top08 .date p{
+	padding-left: 1rem;
+	font-size: 1.2rem;
+	color: #d00e36;
+	border-bottom: solid 1px #d00e36;
+	text-align: center;
+}
+.top08 .place{
+	width: 100%;
+	margin-top: 2rem;
+}
+.top08 a{
+	text-decoration: underline;
+	transition: .3s;
+}
+.top08 a:hover{
+	color:#d00e36;
+}
+.top08 .place iframe{
+	height: 300px;
+	width: 100%;
+}
+
+/* .top08 dl.schedule{
 	text-align: left;
 	display: flex;
 	flex-wrap: wrap;
@@ -544,7 +610,7 @@ section,
 .top08 dl.schedule dd{
 	border-bottom: dotted 1px #fcfcfb;
 	width: 74%;
-}
+} */
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ08 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ09 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */

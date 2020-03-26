@@ -54,19 +54,19 @@ function funcManagerAddress($item_type_1,$item_type_2,$item_type_3,$item_type_4,
     $content .= "【体験会希望商品】：";
     
     if($item_type_1){
-    $content .= $item_type_1;
+    $content .= $item_type_1." ";
     }
     if($item_type_2){
-    $content .= " ,".$item_type_2;
+    $content .= $item_type_2." ";
     }
     if($item_type_3){
-    $content .= " ,".$item_type_3;
+    $content .= $item_type_3." ";
     }
     if($item_type_4){
-    $content .= " ,".$item_type_4;
+    $content .= $item_type_4." ";
     }
     if($item_type_5){
-    $content .= " ,".$item_type_5;
+    $content .= $item_type_5;
     }
     $content .= "\n";
 
@@ -131,19 +131,19 @@ function funcContactAddress($item_type_1,$item_type_2,$item_type_3,$item_type_4,
     $content .= "【体験会希望商品】：";
     
     if($item_type_1){
-    $content .= $item_type_1;
+    $content .= $item_type_1." ";
     }
     if($item_type_2){
-    $content .= " ,".$item_type_2;
+    $content .= $item_type_2." ";
     }
     if($item_type_3){
-    $content .= " ,".$item_type_3;
+    $content .= $item_type_3." ";
     }
     if($item_type_4){
-    $content .= " ,".$item_type_4;
+    $content .= $item_type_4." ";
     }
     if($item_type_5){
-    $content .= " ,".$item_type_5;
+    $content .= $item_type_5;
     }
     $content .= "\n";
 
@@ -182,10 +182,10 @@ function funcContactAddress($item_type_1,$item_type_2,$item_type_3,$item_type_4,
     
     $content .= "--------------------------------\n\n\n";
 
-    $content .= "内容に誤りがあった場合には、お手数ですが下記よりご連絡お願い致します。\n";
-    $content .= "このメールによりお申し込み完了とさせていただきますので、当日開始10分前に体験会会場へお越しください。\n";
+    // $content .= "内容に誤りがあった場合には、お手数ですが下記よりご連絡お願い致します。\n";
+    $content .= "内容確認のため、後日スタッフより確認のお電話させていただきます。\n";
     $content .= "※お申し込みされた開催日の3日前までにご連絡がつかない場合は、大変恐縮ですがキャンセルとさせていただきますのでご了承くださいませ。\n\n";
-    $content .= "万が一お申し込み数が上限に達している場合には、ご連絡させていただきます。ご了承ください。\n\n\n";
+    $content .= "万が一お申し込み数が上限に達している場合には、ご了承ください。\n\n\n";
     $content .= "--------------------------------\n\n";
     $content .= "Tree Company株式会社\n";
     $content .= "【東京本社】 〒165-0075 東京都新宿区高田馬場3-23-7 JESCO高田馬場6F \n";
