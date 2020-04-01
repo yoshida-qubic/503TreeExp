@@ -148,6 +148,7 @@ section,
 }
 .top01 .swiper-slide{
 	height: calc(100vh - 5rem);
+	min-height: 650px;
 	position: relative;
 }
 .top01 .swiper-slide .top_img{
@@ -293,7 +294,7 @@ section,
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ04 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .top04{
-	background: url(../img/top04_back.png) center /cover no-repeat;
+	background: url(../img/top04_back.png) center / auto repeat;
 	text-align: center;
 	padding: 5rem 0;
 }
@@ -383,7 +384,7 @@ section,
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ05 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .top05{
-	background: url(../img/top05_back.png) center /cover no-repeat;
+	background: url(../img/top05_back.png) center / auto repeat;
 	text-align: center;
 	padding: 5rem 0;
 }
@@ -539,6 +540,26 @@ section,
 }
 .top08 .box h3{
 	font-size:  2rem;
+}
+.top08 .attention{
+	border: solid 3px #fff;
+	padding: 1.5rem;
+	margin: 4rem auto;
+	max-width:1000px;
+}
+.top08 .attention h4{
+	text-align: center;
+	font-size: 1.4rem;
+	margin:0 0 1rem;
+}
+.top08 .attention p{
+	margin:1rem 0;
+}
+.top08 .attention ul{
+	margin-left: 2rem;
+}
+.top08 .attention ul li{
+	list-style: disc;
 }
 .top08 .item{
 	margin: 6rem auto 2rem;

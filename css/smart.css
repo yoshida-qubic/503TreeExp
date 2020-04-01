@@ -526,6 +526,25 @@ margin:2rem auto 0;
 .top08 .box h3{
 	font-size:  1.4rem;
 }
+.top08 .attention{
+	border: solid 2px #fff;
+	padding: 1rem;
+	margin: 2rem 0;
+}
+.top08 .attention h4{
+	text-align: center;
+	font-size: 1.2rem;
+	margin:0 0 1rem;
+}
+.top08 .attention p{
+	margin:1rem 0;
+}
+.top08 .attention ul{
+	margin-left: 1rem;
+}
+.top08 .attention ul li{
+	list-style: disc;
+}
 .top08 .item{
 	margin: 2rem 0;
 }
