@@ -569,7 +569,7 @@ section,
 	flex-wrap:wrap;
 }
 .top08 .area{
-	width:70%;
+	width:50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -589,14 +589,19 @@ section,
 	content: '';
 }
 .top08 .date{
-	width: 30%;
+	width: 50%;
+	text-align: right;
 }
 .top08 .date p{
-	padding-left: 1rem;
 	font-size: 1.2rem;
 	color: #d00e36;
+	display: inline-block;
+}
+.top08 .date p span{
+	padding: 0 0.5rem;
+	text-align: left;
 	border-bottom: solid 1px #d00e36;
-	text-align: center;
+	display: block;
 }
 .top08 .place{
 	width: 100%;
@@ -613,25 +618,6 @@ section,
 	height: 300px;
 	width: 100%;
 }
-
-/* .top08 dl.schedule{
-	text-align: left;
-	display: flex;
-	flex-wrap: wrap;
-	max-width:1000px;
-	margin:0 auto;
-	font-size: 1rem;
-}
-.top08 dl.schedule dt{
-	color: #d00e36;
-	border-bottom: solid 1px #d00e36;
-	width: 25%;
-	margin-right: 1%;
-}
-.top08 dl.schedule dd{
-	border-bottom: dotted 1px #fcfcfb;
-	width: 74%;
-} */
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ08 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ09 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */

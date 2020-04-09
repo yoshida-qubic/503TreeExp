@@ -15,6 +15,7 @@ a{
 #wrapper{
 	width: 100%;
 	height: 100%;
+	overflow: hidden;
 }
 section,
 .section{
@@ -571,8 +572,13 @@ margin:2rem auto 0;
 }
 .top08 .date p{
 	color: #d00e36;
-	border-bottom: solid 1px #d00e36;
 	margin:0;
+}
+.top08 .date p span{
+	padding: 0 0.5rem;
+	text-align: left;
+	border-bottom: solid 1px #d00e36;
+	display: block;
 }
 .top08 .place{
 	margin-top: 2rem;
@@ -582,18 +588,6 @@ margin:2rem auto 0;
 	height: 200px;
 	width: 100%;
 }
-/* .top08 dl.schedule{
-	text-align: left;
-	display: block;
-}
-.top08 dl.schedule dt{
-	color: #d00e36;
-}
-.top08 dl.schedule dd{
-	border-bottom: dotted 1px #fcfcfb;
-	margin-bottom: 1.5rem;
-	padding-bottom: 0.5rem;
-} */
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ08 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ09 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
