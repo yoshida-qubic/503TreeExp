@@ -42,7 +42,7 @@ $user_kana = mb_convert_kana($user_kana,"sKV");      //「名前」半角カナ�
 //管理者受信用メール送信処理
 function funcManagerAddress($item_type_1,$item_type_2,$item_type_3,$item_type_4,$item_type_5,$user,$user_kana,$job,$comp_name,$dele,$zip,$address,$address_num,$tel,$phone,$fax,$email,$date01,$date02,$num_people,$msg,$planning,$agree01,$agree02,$agree03,$agree04){
 
-    $mailto = 'register@qu-bic.jp,info@tree-co.net,e-tamura@tree-co.net,terauchi@tree-co.net'; 
+    $mailto = 'register@qu-bic.jp,info@tree-co.net'; 
     // $mailto = 'register@qu-bic.jp'; 
     $subject = "美容機器体験会申込メール"; 
 
@@ -188,9 +188,9 @@ function funcContactAddress($item_type_1,$item_type_2,$item_type_3,$item_type_4,
     $content .= "万が一お申し込み数が上限に達している場合には、ご了承ください。\n\n\n";
     $content .= "--------------------------------\n\n";
     $content .= "Tree Company株式会社\n";
-    $content .= "【東京本社】 〒165-0075 東京都新宿区高田馬場3-23-7 JESCO高田馬場6F \n";
-    $content .= "【大阪支社】 〒542-0081 大阪府大阪市中央区南船場2-12-16 ルグラン心斎橋7F \n";
-    $content .= "【電話番号】 03-6279-2628 \n";
+    // $content .= "【東京本社】 〒165-0075 東京都新宿区高田馬場3-23-7 JESCO高田馬場6F \n";
+    $content .= "【住所】 〒550-0015 大阪府大阪市西区南堀江2-13-30 SUNEASTBldg.901 \n";
+    $content .= "【電話番号】 06-6684-9193 \n";
     $content .= "【MAIL】 info@tree-co.net\n";
     $content .= "【営業時間】平日 10:00～18:00\n\n";
     $content .= "--------------------------------\n";
