@@ -42,7 +42,7 @@ $user_kana = mb_convert_kana($user_kana,"sKV");      //「名前」半角カナ�
 //管理者受信用メール送信処理
 function funcManagerAddress($item_type_1,$item_type_2,$item_type_3,$item_type_4,$item_type_5,$user,$user_kana,$job,$comp_name,$dele,$zip,$address,$address_num,$tel,$phone,$fax,$email,$date01,$date02,$num_people,$msg,$planning,$agree01,$agree02,$agree03,$agree04){
 
-    $mailto = 'register@qu-bic.jp,info@tree-co.net,tsukiyama@tree-co.net'; 
+    $mailto = 'info@tree-co.net,tsukiyama@tree-co.net'; 
     // $mailto = 'register@qu-bic.jp'; 
     $subject = "美容機器体験会申込メール"; 
 
